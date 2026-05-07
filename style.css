@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Young+Serif&display=swap');
+
+:root { 
+  --bg-stone: hsl(30, 54%, 90%); /* The stone background */
+  --card-white: #FFFFFF;
+  --text-dark: #000; /* The black text */
+  --text-brown: hsl(14, 45%, 36%); /* Deep brown for headers */
+  --prep-box:  hsl(330, 100%, 98%); /* The soft pink for prep box */
+}
+
+body {
+  background: var(--bg-stone);
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Outfit-black', sans-serif;
+  font-weight: 700;
+}
+
+.prep-container {
+  background-color: var(--prep-box);
+  padding: 24px;
+  border-radius: 12px;
+  margin-bottom: 32px;
+}
+
+.prep-container h3 {
+  color: hsl(332, 51%, 32%); /* Or your raspberry color variable */
+  font-size: 20px;
+  margin-bottom: 16px;
+  font-family: 'Outfit-Light', sans-serif;
+  font-weight: 700;
+}
+
+.prep-container li strong {
+  color: var(--text-brown);
+  font-family: 'Outfit-black', sans-serif;
+  font-weight: 700;
+}
+
+.card {
+  background-color: var(--card-white);
+  max-width: 736px;
+  width: 90%;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.card-content {
+  padding: 40px 32px 32px 32px; /* Top: 0, Right: 32px, Bottom: 32px, Left: 32px */
+  display: flex;
+  flex-direction: column;
+  font-family: 'Outfit-black', sans-serif;
+  font-weight: 400;
+}
+
+.card-img {
+  padding: 0;
+  width: 100%;
+  border-radius: 10px;
+  margin: 0;
+  display: block;
+}
+
+.card-img img {
+  width: 100%;
+  display: block;    /* Removes the tiny gap at the bottom of images */
+  border-radius: 12px; /* Matches the design's rounded corners */
+}
+
+.desc {
+  font-size: 14px;
+  color: #000;
+  font-family: 'Outfit-Medium', sans-serif;
+  font-weight: 400;
+}
+
+ h1 {
+  font-family: 'Young Serif', serif;
+  color: var(--text-dark);
+  font-size: 36px;
+  font-weight: 400;
+  margin-top: 24px;
+}
+
+ h2 {
+  font-family: 'Young Serif', serif;
+  color: var(--text-brown) !important; /* The reddish-brown color */
+  font-weight:400;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* Merges borders into single lines */
+  margin-top: 16px;
+}
+
+td {
+  padding: 12px 0px;
+  border-bottom: 1px solid var(--bg-stone); /* Adds the line under each row */
+  font-family: 'Outfit-black', sans-serif;
+  font-weight: 400;
+}
+
+td strong {
+  font-family: 'Outfit-black', sans-serif;
+  font-weight: 700;
+  color: var(--text-brown);
+}
+
+tr:last-child td {
+  border-bottom: none; /* Removes the line from the very last row */
+}
+
+td:first-child {
+  padding-left: 32px;
+}
+
+td:last-child {
+  padding-right: 32px;
+  padding-left: 16px;
+  color: var(--text-brown);
+  font-weight: 700;
+}
+
+/* Target all List Bullets and Numbers */
+ul li::marker {
+  color: var(--text-brown);
+  font-family: 'Outfit-black', sans-serif;
+  font-weight: 700;
+  padding-left: 16px;
+  line-height: 1.5;
+}
+
+ol li::marker {
+  color: var(--text-brown) !important;
+  font-weight: 700;
+}
+
+ol li b {
+  color: var(--text-dark);
+  font-weight: 700;
+  display: inline; /* Keeps it on the same line as the rest of the sentence */
+  font-family: 'Outfit-black', sans-serif;
+}
+
+ol li {
+  margin-bottom: 8px;
+  line-height: 1.5; /* Makes the instructions easier to read */
+  padding-left: 14px;
+}
+
+h3 {
+  color: var(--prep-box);
+  font-family: 'Young Serif', serif;
+  font-weight: 400;
+}
+
+/* Target the Numerical Values in the Table */
+td:last-child {
+  color: var(--text-brown);
+  font-weight: 700;
+}
+
+li {
+  padding-left: 16px; /* This creates the gap between the bullet and the start of the text */
+  margin-bottom: 8px; /* This adds space between each list item */
+  color: var(--text-dark);
+  line-height: 1.5;
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 20px;
+  padding: 12px 0;
+  margin-top: auto;
+}Enter@@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Young+Serif&display=swap');
+
+:root { 
+  --bg-stone: hsl(30, 54%, 90%); /* The stone background */
+  --card-white: #FFFFFF;
+  --text-dark: #000; /* The black text */
+  --text-brown: hsl(14, 45%, 36%); /* Deep brown for headers */
+  --prep-box:  hsl(330, 100%, 98%); /* The soft pink for prep box */
+}
+
+body {
+  background: var(--bg-stone);
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Outfit-black', sans-serif;
+  font-weight: 700;
+}
+
+.prep-container {
+  background-color: var(--prep-box);
+  padding: 24px;
+  border-radius: 12px;
+  margin-bottom: 32px;
+}
+
+.prep-container h3 {
+  color: hsl(332, 51%, 32%); /* Or your raspberry color variable */
+  font-size: 20px;
+  margin-bottom: 16px;
+  font-family: 'Outfit-Light', sans-serif;
+  font-weight: 700;
+}
+
+.prep-container li strong {
+  color: var(--text-brown);
+  font-family: 'Outfit-black', sans-serif;
+  font-weight: 700;
+}
+
+.card {
+  background-color: var(--card-white);
+  max-width: 736px;
+  width: 90%;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.card-content {
+  padding: 40px 32px 32px 32px; /* Top: 0, Right: 32px, Bottom: 32px, Left: 32px */
+  display: flex;
+  flex-direction: column;
+  font-family: 'Outfit-black', sans-serif;
+  font-weight: 400;
+}
+
+.card-img {
+  padding: 0;
+  width: 100%;
+  border-radius: 10px;
+  margin: 0;
+  display: block;
+}
+
+.card-img img {
+  width: 100%;
+  display: block;    /* Removes the tiny gap at the bottom of images */
+  border-radius: 12px; /* Matches the design's rounded corners */
+}
+
+.desc {
+  font-size: 14px;
+  color: #000;
+  font-family: 'Outfit-Medium', sans-serif;
+  font-weight: 400;
+}
+
+ h1 {
+  font-family: 'Young Serif', serif;
+  color: var(--text-dark);
+  font-size: 36px;
+  font-weight: 400;
+  margin-top: 24px;
+}
+
+ h2 {
+  font-family: 'Young Serif', serif;
+  color: var(--text-brown) !important; /* The reddish-brown color */
+  font-weight:400;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* Merges borders into single lines */
+  margin-top: 16px;
+}
+
+td {
+  padding: 12px 0px;
+  border-bottom: 1px solid var(--bg-stone); /* Adds the line under each row */
+  font-family: 'Outfit-black', sans-serif;
+  font-weight: 400;
+}
+
+td strong {
+  font-family: 'Outfit-black', sans-serif;
+  font-weight: 700;
+  color: var(--text-brown);
+}
+
+tr:last-child td {
+  border-bottom: none; /* Removes the line from the very last row */
+}
+
+td:first-child {
+  padding-left: 32px;
+}
+
+td:last-child {
+  padding-right: 32px;
+  padding-left: 16px;
+  color: var(--text-brown);
+  font-weight: 700;
+}
+
+/* Target all List Bullets and Numbers */
+ul li::marker {
+  color: var(--text-brown);
+  font-family: 'Outfit-black', sans-serif;
+  font-weight: 700;
+  padding-left: 16px;
+  line-height: 1.5;
+}
+
+ol li::marker {
+  color: var(--text-brown) !important;
+  font-weight: 700;
+}
+
+ol li b {
+  color: var(--text-dark);
+  font-weight: 700;
+  display: inline; /* Keeps it on the same line as the rest of the sentence */
+  font-family: 'Outfit-black', sans-serif;
+}
+
+ol li {
+  margin-bottom: 8px;
+  line-height: 1.5; /* Makes the instructions easier to read */
+  padding-left: 14px;
+}
+
+h3 {
+  color: var(--prep-box);
+  font-family: 'Young Serif', serif;
+  font-weight: 400;
+}
+
+/* Target the Numerical Values in the Table */
+td:last-child {
+  color: var(--text-brown);
+  font-weight: 700;
+}
+
+li {
+  padding-left: 16px; /* This creates the gap between the bullet and the start of the text */
+  margin-bottom: 8px; /* This adds space between each list item */
+  color: var(--text-dark);
+  line-height: 1.5;
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 20px;
+  padding: 12px 0;
+  margin-top: auto;
+}Enter margin-top: auto;
+    }
