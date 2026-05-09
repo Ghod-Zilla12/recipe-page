@@ -5,13 +5,11 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -33,15 +31,11 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
+- CSS
+- Framework
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- React
+- Typography
 
 ### What I learned
 
@@ -56,12 +50,6 @@ td:last-child {
 }
 ```
 
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
 ### AI Collaboration
 
 At some point in this challenge I was frustrated and AI was a good advantage for me in this. I leveraged it by using Chatgpt, Google Gemini, meta AI and other AI tools to brainstorm this challenge and ask some vital questions on areas I found difficult.
@@ -73,10 +61,8 @@ At some point in this challenge I was frustrated and AI was a good advantage for
 ## Author
 
 - Frontend Mentor - [Ghod-Zilla12](https://www.frontendmentor.io/profile/Ghod-Zilla12)
-- Facebook - [Zilla Lla](https://www.twitter.com/yourusername)
+- Facebook - [Zilla Lla](https://www.facebook.com/profile.php?id=61574520025702)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I'll like to appreciate God for strength, then myself for not throwing in the towel.
